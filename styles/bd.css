@@ -1,0 +1,69 @@
+/* shared styles */
+body{
+  margin: 0;
+}
+/* header styles */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+nav ul li{
+  list-style: none;
+}
+nav h1{
+  margin-left: 140px;
+}
+
+
+.nav-button{
+  padding:8px 18px;
+  background-color:white;
+  border-radius: 7px;
+  border-color:#006A50;
+  color: #006A50;
+  margin-right: 140px;
+  font-weight: 700;
+}
+.memorial-title{
+  font-weight: 700;
+  color: #0E0E0E;
+  font-size: 21px;
+  opacity: 50%;
+  
+}
+.memorial-description{
+  font-weight: 700;
+  font-size: 56px;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+.memorial-btn{
+  background-color:#006A50;
+  border-radius: 5px;
+  color:white;
+  border: none;
+  padding: 12px 22px;
+}
+.memorial{
+  display:flex;
+ justify-content: space-between;
+ align-items: center;
+  background-color:#C6E4D6;
+  margin: 10px 140px;
+  border-radius: 14px;
+  height: 500px;
+}
+.memorial-img{
+  height: 350px;
+  width: 440px;
+  margin: 80px 100px 130px 70px;
+
+}
+.memorial-text{
+
+  width: 600px;
+  height: 310px;
+  margin:80px 0 100px 40px;
+  
+}
