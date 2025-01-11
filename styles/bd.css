@@ -2,6 +2,7 @@
 body{
   margin: 0;
   background-color: #F1F1F3;
+ font-family: "Fira Sans", serif;;
 }
 /* header styles */
 nav{
@@ -165,7 +166,7 @@ nav h1{
 .satelite{
   border-radius: 16px;
   width: 360px;
-  height: 240px;
+  height: 248px;
 }
 .recent-text-title{
   font-weight: bold;
@@ -194,7 +195,77 @@ nav h1{
   color: white;
   border: none;
   border-radius: 6px;
-  padding:9px 18px;
-  margin-bottom: -80px;
+  padding:12px 18px;
+  font-size: 16px;
+  
+}
+/* donate styles */
+.donate{
+  margin:50px 150px 80px 180px;
+}
+.donate-amount-container{
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  width: 1100px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 240px;
+}
+.other-amount{
+  display: block;
+}
+.donate-title{
+  font-weight: bold;
+  font-size: 34px;
+  text-align: center;
+
+}
+.donate-description{
+  font-size: 16px;
+  text-align: center;
+}
+.amount{
+  padding:30px 60px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 30px;
+  border: solid;
+  border-color: rgb(229, 229, 229);
+  background-color: white;
+  border-width: 2px;
+}
+.amount2{
+  padding:30px 60px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 30px;
+  border: solid;
+  border-color: rgb(229, 229, 229);
+  background-color: #C6E4D6;
+  border-width: 2px;
+}
+.other-amount{
+  width: 1040px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  opacity: 80%;
+  border: none;
+}
+.donate-foot{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap:20px;
+}
+.donate-btn{
+  background-color: #006A50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding:18px 23px;
+  font-size: 16px;
   
 }
